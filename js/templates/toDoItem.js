@@ -1,4 +1,4 @@
-import { toElement } from "./utils/toElement";
+import { toElement } from "../utils/toElement";
 
 function toDoItemTemplate(data) {
     const template = `

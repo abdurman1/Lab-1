@@ -9,8 +9,8 @@ async function appInit() {
 	const appData = await getToDoData();
 	
 	const toDoItems = Object.values(appData).map((object) => {
-		console.log(toDoItemTemplate(obj.todo))
-	});
+		console.log(toDoItemTemplate(object.todo));
+	});	
 
 
 	toDoItems.forEach((todo) =>{
